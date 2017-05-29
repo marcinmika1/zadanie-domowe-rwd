@@ -42,6 +42,7 @@ h2 {
 @media (max-width: 1170px) {
     section {
         background-image: url(../img/man-2.jpg);
+        height: 70vh;
     }
     header {
     width: 40%;
@@ -57,7 +58,7 @@ h2 {
 @media (max-width: 992px) {
     section {
         background-image: url(../img/man-1.jpg);
-/*        position: absolute;*/
+        height: 50vh;
     }
     header{
         position: static;
