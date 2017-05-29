@@ -1,0 +1,48 @@
+    body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section {
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 45vh;
+    text-align: left;
+}
+
+header {
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    background-color: aqua;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+h2 {
+    position: absolute;
+}
+
+
+/*
+@media (min-width: 1170px){
+    
+}
+*/
+
+@media (max-width: 1170px) {
+    section {
+        background-image: url(../img/man-2.jpg);
+    }
+}
+
+@media (max-width: 992px) {
+    section {
+        background-image: url(../img/man-1.jpg);
+    }
