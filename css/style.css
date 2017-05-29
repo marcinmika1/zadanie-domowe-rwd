@@ -9,8 +9,8 @@ section {
     background-position: center;
     width: 100%;
     height: 100vh;
-    line-height: 45vh;
     text-align: left;
+    overflow: hidden;
 }
 
 header {
@@ -18,15 +18,18 @@ header {
     width: 40%;
     height: 40%;
     background-color: aqua;
-    position: relative;
+    position: static;
+
 }
 
 h1 {
-    position: absolute;
+    display: inline-block;
+    padding: 10px;
 }
 
 h2 {
-    position: absolute;
+    display: inline-block;
+    padding: 10px;
 }
 
 
